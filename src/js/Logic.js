@@ -18,7 +18,7 @@ export default class Logic {
     } else {
       this.dead.textContent = 0;
       this.lost.textContent = 0;
-      // alert('Вы проиграли');
+      alert('Вы проиграли');
     }
   }
 
